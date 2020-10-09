@@ -1,0 +1,13 @@
+package com.vinayak;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class HotelReservationManagementApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(HotelReservationManagementApplication.class, args);
+	}
+
+}
