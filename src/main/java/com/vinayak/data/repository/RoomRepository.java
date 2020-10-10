@@ -9,4 +9,5 @@ import com.vinayak.data.model.Room;
 public interface RoomRepository extends CrudRepository<Room, Long> {
 
 	Room findByNumber(String number);
+
 }

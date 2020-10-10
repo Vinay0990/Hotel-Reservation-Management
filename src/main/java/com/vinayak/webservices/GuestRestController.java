@@ -15,7 +15,7 @@ import com.vinayak.data.repository.GuestRepository;
 
 @RestController
 @RequestMapping(value = "/api")
-public class GuestController {
+public class GuestRestController {
 
 	@Autowired
 	private GuestRepository repository;
